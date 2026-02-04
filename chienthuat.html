@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body{
+            background: linear-gradient(135deg, #0F0F0F, #1C1B18, #2A2A24);
+            background-attachment: fixed;
+        }
+        header{
+            background: rgba(0,0,0,0.35);
+            backdrop-filter: blur(6px);
+            color: blue;
+            text-align: center;
+            position: sticky;   
+            top: 0;     
+        }
+        .content {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .content ul{
+            margin-left: 50px;
+            color:#C9C9C9;
+            font-size: 20px;
+        }
+        .content h2{
+            color:#F1F1E7;
+            font-size: 65px;
+            text-align: center;
+        }
+        .content h3{
+            margin-top: 30px;
+            margin-left: 50px;
+            color:#F1F1E7;
+            font-size: 45px;
+        }
+        .content h4{
+            margin-top: 20px;
+            margin-left: 30px;
+            color:#F1F1E7;
+            font-size: 30px;
+        }
+        .content p{
+            color:#C9C9C9;
+            font-size: 20px;
+        }
+        .mucluc{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(18, 23, 23);
+        }
+        .mucluc a{
+            margin-left: 30px;
+            margin-bottom: 5px;
+        }
+        .mucluc a :hover{
+            color: darkblue;
+        }
+        .mucluc h2{
+            color:#F1F1E7;
+            font-size: 65px;
+            text-align: center;
+        }
+        .chung{
+            margin-top: 100px;
+        }
+        nav a{
+            margin-left: 60px;
+        }
+
+        footer {
+            margin-top: 100px;
+            background-color: black;
+        }
+        footer p{
+            color: white;
+        }
+        footer h6 {
+            font-size: 30px;
+            color:#C9C9C9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>  
+            <ul class="nav justify-content-center">
+            <a href="Main.html"><img src="./Img/b598704a-5f70-475f-afbd-0e3615782a3a.png" alt="Logo" width="80px" height="80px"/></a>
+            <li class="nav-item">
+                <a class="nav-link" href="luatcoban.html" style="font-size: 25px;">Luật cơ bản</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="vitri.html" style="font-size: 25px;">Vị trí trong bóng đá</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="font-size: 25px;">Chiến thuật cơ bản</a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <p>Chiến thuật là cách mà một đội bóng chơi. Đội bóng có chất lượng cầu thủ kém vẫn có thể thành công nếu có chiến thuật tốt, đội hình toàn siêu sao sẽ thất bại nếu không được đưa vào đúng người. </p>
+        <div class="mucluc">
+            <h2>Mục lục</h2>
+            <a href="#1">Định hướng vị trí</a>
+            <a href="#2">Lối đá pressing</a>
+            <a href="#3">Lối đá phòng ngự phản công</a>
+        </div>
+        <div class="dinhhungvitri chung" id="1">
+            <h2>Lối đá định hướng vị trí</h2>
+            <p>Mục tiêu chính: Sử dụng bóng để chiếm lĩnh các vị trí chiến lược trên sân, tạo ra "lợi thế số lượng" ở những khu vực quan trọng.</p>
+            <p>Trong một ví dụ cụ thể về lối chơi định hướng vị trí – được Pep Guardiola khuyến khích – sân bóng được chia thành nhiều khu vực (bên dưới). Mô hình này sử dụng các đường thẳng đứng và ngang trên sân, với mỗi cầu thủ được phân công vào một khu vực. Không bao giờ được có quá ba đồng đội trên bất kỳ mặt phẳng ngang nào, và không bao giờ được có quá hai đồng đội trên bất kỳ mặt phẳng dọc nào, để tạo ra các lựa chọn chuyền bóng cho cầu thủ đang có bóng. Các cầu thủ cần sẵn sàng di chuyển dựa trên sự di chuyển của đồng đội. Điều này tạo ra sự luân chuyển liên tục nhằm mục đích phá vỡ hàng phòng ngự của đối phương.</p>
+            <img src="./Img/webpc-passthru.webp"/>
+            <p>Đội bóng sài lối đá định hướng vị trí thành công là: Manchester City của Pep Guardiola</p>
+        </div>
+
+        <div class="pressing chung" id="2">
+            <h2>Lối đá pressing</h2>
+            <p>Pressing là một từ tiếng Anh mà nghĩa sát nhất của nó dùng trong bóng đá là “tạo áp lực“. Lối đá Pressing thúc ép cầu thủ di chuyển, áp sát cường liên tục để lấy bóng trong chân đối thủ. Đôi khi việc Pressing không thể giúp bạn lấy được bóng ngay nhưng lại tạo áp lực khiến cầu thủ đối phương rất khó để phối hợp một cách chính xác (dẫn tới mất bóng).</p>
+            <p>Mục tiêu chính: chiếm quyền kiểm soát bóng hoàn toàn và không để đối phương có cơ hội để phối hợp, phản công.</p>
+            <p>Thế những, việc sài lối đá pressing mang lại các nhược điểm như: các cầu thủ suy giảm thể lực rất nhanh, rất khó để phòng thủ các pha phản công nếu đối phương qua được lớp pressing</p>
+            <p>Đội bóng sài lối đá pressing thành công là: Liverpool dưới thới Klopp</p>
+        </div>
+
+        <div class="phongngu chung" id="3">
+            <h2>Lối đá phòng ngự phản công</h2>
+            <p>Lối đá phòng ngự phản công là chiến thuật trong bóng đá tập trung vào việc phòng thủ chắc chắn và nhường quyền kiểm soát bóng cho đối phương, sau đó tận dụng cơ hội để phản công nhanh khi đối phương mất bóng.</p>
+            <p>Mục tiêu chính: phòng thủ một các chặt chẽ và sử dụng tốc độ của cầu thủ trong phản công để ghi bàn</p>
+            <p>Đội bóng sài lối đá phản công thành công là: Inter Milan của José Mourinho</p>
+        </div>
+    </div>
+    <footer>
+        <h6>Liên hệ tại:</h6>
+        <ul>
+            <li>
+                <a href="https://youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <a href="https://x.com" target="_blank">X</a>
+            </li>
+            <li>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nhieuhoangkhang2@gmail.com" target="_blank">Gmail</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

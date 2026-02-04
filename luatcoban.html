@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body{
+            background: linear-gradient(135deg, #0F0F0F, #1C1B18, #2A2A24);
+            background-attachment: fixed;
+        }
+        header{
+            background: rgba(0,0,0,0.35);
+            backdrop-filter: blur(6px);
+            color: blue;
+            text-align: center;   
+            position: sticky;   
+            top: 0;   
+        }
+        nav a{
+            margin-left: 60px;
+        }
+        /*  */
+        .luuy{
+            text-align: center;
+        }
+        /*  */
+        .luat h2{
+            color:#F1F1E7;
+        }
+        .luat p{
+            color:#C9C9C9;
+        }
+        /*  */
+        .mucluc{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(18, 23, 23);
+        }
+        .mucluc a{
+            margin-left: 30px;
+            margin-bottom: 5px;
+        }
+        .mucluc a :hover{
+            color: darkblue;
+        }
+        .mucluc h2{
+            color:#F1F1E7;
+            font-size: 65px;
+            text-align: center;
+        }
+        .luatsanbong{
+            display: flex;
+        }
+        .luatsanbong p{
+            font-size: 20px;
+            margin-left: 35px;
+        }
+        .luatsanbong h2{
+            font-size: 65px;
+        }
+        /*  */
+        .chung{
+            margin-top: 100px;
+        }
+        .chung h2{
+            font-size: 65px;
+            text-align: center;
+        }
+        .chung img{
+           width: 750px; 
+           height: 600px; 
+           margin-left: 300px; 
+        }
+        .chung p{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        ul {
+            color: #C9C9C9;
+            font-size: 20px;
+            margin-left: 50px;
+        }
+        /*  */
+        footer {
+            margin-top: 100px;
+            background-color: black;
+        }
+        footer p{
+            color: white;
+        }
+        footer h6 {
+            font-size: 30px;
+            color:#C9C9C9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>  
+            <ul class="nav justify-content-center">
+            <a href="Main.html"><img src="./Img/b598704a-5f70-475f-afbd-0e3615782a3a.png" alt="Logo" width="80px" height="80px"/></a>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="font-size: 25px;">Luật cơ bản</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="vitri.html" style="font-size: 25px;">Vị trí trong bóng đá</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="chienthuat.html" style="font-size: 25px;">Chiến thuật cơ bản</a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+
+        <div class="luuy">
+            <div class="alert alert-danger" role="alert">
+                Các luật này chỉ được áp dụng cho môn bóng đá tiêu chuẩn có 11 cầu thủ mỗi đội!
+            </div>
+        </div>
+        <div class="mucluc">
+            <h2>Mục lục</h2>
+            <a href="#1">1.Luật sân bóng</a>
+            <a href="#2">2.Quy luật về quả bóng</a>
+            <a href="#3">3.Luật về số lượng người thi đấu</a>
+            <a href="#4">4.Luật về các trang bị của cầu thủ</a>
+            <a href="#5">5.Quy luật về trọng tài</a>
+            <a href="#6">6.Luật về việc bắt đầu hoặc tái khởi động một trận bóng</a>
+            <a href="#7">7.Luật quy định về bóng trong và ngoài cuộc</a>
+            <a href="#8">8.Luật về cách tính bàn thắng</a>
+            <a href="#9">9.Luật việt vị</a>
+            <a href="#10">10.Luật về các hành vi vi phạm luật trong bóng đá</a>
+            <a href="#11">11.Đá phạt trực tiếp và gián tiếp</a>
+            <a href="#12">12.Đá Penalty</a>
+            <a href="#13">13.Ném biên</a>
+            <a href="#14">14.Đá phạt góc</a>
+        </div>
+        <div class="luat">
+            <div class="luatsanbong" id="1">
+                <h2>1.Luật sân bóng</h2>
+                <p>Sân bóng đá dài 105m, rộng 68m, có đường giữa sân và vòng tròn trung tâm 9m15. Mỗi biên ngang đặt khung thành (2.44m × 7.32m) kèm vùng cấm địa 16m50, nơi phạm lỗi sẽ bị phạt Penalty trên chấm 11m. Trước khung thành có khu vực 5m50, bốn góc sân có chấm phạt góc.</p>
+                <img src="./Img/luat-san-bong.avif" style="width: 600px; height: 300px;"/>
+            </div>
+
+            <div class="luatquabong chung" id="2">
+                <h2>2.Quy luật về quả bóng</h2>
+                <p>Quả bóng được sử dụng trong trận đấu phải là bóng được làm bằng da hoặc một chất liệu tương đương, áp dụng cho các cầu thủ từ 15 tuổi trở lên và có trọng lượng từ 410 đến 450 g. Chu vi quả bóng ước tính từ 68 đến 70cm và được nén dưới áp suất 0.6 đến 1.1</p>
+                <img src="./Img/quy-luat-ve-qua-bong.avif"/>
+            </div>
+
+            <div class="luatsonguoi chung" id="3">
+                <h2>3.Luật về số lượng người thi đấu</h2>
+                <p>Tất cả các trận đấu bóng đá tiêu chuẩn sẽ có 22 người thi đấu trên sân. Mỗi đội sẽ bao gồm 10 cầu thủ và 1 thủ môn. Nếu như một đội phải nhận từ 3 thẻ đỏ trở lên, sẽ bị xử thua và trận đấu ngừng diễn ra,  mỗi đội chỉ được phép thay tối đa 3 cầu thủ.</p>
+            </div>
+
+            <div class="luattrangbi chung" id="4">
+                <h2>4. Luật về các trang bị của cầu thủ</h2>
+                <p>Trang phục đầu tiên mà các cầu thủ buộc phải có chính là giày. Loại giày được các cầu thủ sử dụng là giày đá bóng chuyên dụng. Cùng với giày là tất chân. Các cầu thủ cũng cần phải có tất chân để bảo vệ ống chân.</p>
+                <img src="./Img/luat-ve-trang-bi-cho-cau-thu.avif"/>
+                <p>Tất cả các cầu thủ của mỗi đội sẽ mặc đồng phục giống nhau bao gồm quần ngắn, áo cộc hoặc dài tay. Riêng thủ môn sẽ được trang bị đồng phục riêng để có thể phân biệt với các cầu thủ khác trong đội.</p>
+                <p>Ngoài ra, thủ môn sẽ được trang bị thêm đôi găng tay để bắt bóng. Hai đội cùng thi đấu buộc phải có trang phục khác nhau về hình dáng và màu sắc. Nếu như cầu thủ nào không đạt yêu cầu về trang phục trên thì sẽ không được ra sân thi đấu.</p> 
+            </div>
+
+            <div class="luattrongtai chung" id="5">
+                <h2>5. Quy luật về trọng tài</h2>
+                <p>Trong mỗi trận đấu sẽ có một vị trọng tài chính. Ông sẽ có nhiệm vụ di chuyển trên sân để có thể giám sát được tất cả các cầu thủ. Ông cũng chính là người có thẩm quyền lớn nhất trên sân bóng đá.</p>
+                <p>Trọng tài chính cần phải đảm bảo trận đấu được diễn ra thật công bằng và đúng với các quy định được đề ra.</p>
+                <img src="./Img/trongtai.jpeg"/>
+                <p>Các trợ lý của trọng tài sẽ có nhiệm vụ hỗ trợ trọng tài chính để điều khiển trận đấu. Thường sẽ có hai trợ lý trọng tài đứng ở hai đường biên của phần sân mỗi đội. Họ được gọi là trọng tài biên với trang phục giống như trọng tài chính nhưng không được sử dụng còi.</p>
+                <p>Nhưng thay vào đó họ sẽ được trang bị một chiếc cờ hình tam giác. Khi các cầu thủ trong sân phạm luật, họ sẽ dùng lá cờ này phất lên để thông báo với trọng tài chính. Ngoài ra họ cũng có nhiệm vụ kiểm tra xem bóng có đi ra khỏi đường biên hay vào khung thành của cả hai đội hay không.</p>
+            </div>
+
+            <div class="luatphatbong chung" id="6">
+                <h2>6.Luật về việc bắt đầu hoặc tái khởi động một trận bóng</h2>
+                <p>Trước khi mỗi hiệp đấu bắt đầu, hai đội thi đấu sẽ lần lượt phát bóng để bắt đầu. Nếu hiệp 1 là đội A phát bóng thì hiệp 2 sẽ là đội B. Để quyết định đội nào phát bóng trước, trọng tài chính sẽ dùng đồng xu.</p>
+                <p>Quả phát bóng sẽ được cầu thủ thực hiện tại chấm phát bóng ở giữa sân. Đội nào xuất sắc ghi bàn thì đội còn lại sẽ được quyền phát bóng lại.</p>
+            </div>
+
+            <div class="luattronngoai chung" id="7">
+                <h2>7.Luật quy định về bóng trong và ngoài cuộc</h2>
+                <p>Bóng trong cuộc là bóng ở trạng thái bình thường. Quả bóng này sẽ được các cầu thủ điều khiển trên sân. Bóng ngoài cuộc là bóng nằm trong ba trường hợp sau đây</p>
+                <ul>
+                    <li>Bóng đi vào khung thành của 1 trong 2 đội</li>
+                    <li>Bóng đi ra ngoài đường biên dọc và biên ngang</li>
+                    <li>Trọng tài chính thổi còi tạm dừng trận đấu vì một lý do bất kì</li>
+                </ul>
+            </div>
+
+            <div class="luatbanthang chung" id="8">
+                <h2>8.Luật về cách tính bàn thắng</h2>
+                <p>Điều mà tất cả các cầu thủ mong muốn là ghi bàn vào lưới đối thủ và ngăn chặn đối thủ ghi bàn. Một bàn thắng được công nhận sẽ là quả bóng đi hoàn toàn vào lưới của khung thành của đối phương</p>
+            </div>
+
+            <div class="luatvietvi chung" id="9">
+                <h2>9.Luật việt vị</h2>
+                <p>Cầu thủ bị việt vị khi</p>
+                <ul>
+                    <li>Cầu thủ đứng ở phần sân đối thủ</li>
+                    <li>Cầu thủ đứng sau 10 người của đối thủ và ở sau bóng</li>
+                    <li>Cầu thủ tham gia vào tình huống bóng đó(sút, cản trở đối thủ,...)</li>
+                </ul>
+                <p>Tiêu chí trên được tính từ lúc đồng đội tác động lên bóng</p>
+                <img src="./Img/luat-viet-vi.jpg" />
+            </div>
+
+            <div class="luatphamloi chung" id="10">
+                <h2>10.Luật về các hành vi vi phạm luật trong bóng đá</h2>
+                <p>Các lỗi sau đây sẽ cho đối thủ hưởng một quả đá phạt:</p>
+                <p style="margin-left: 50px;">Va chạm vào người đối phương không đúng luật<br>
+                Xô đẩy đối phương<br>
+                Cố tình đá vào người đối phương<br>
+                Chèn người vào các cầu thủ của đội đối phương<br>
+                Cố tình đánh hoặc tìm cách đánh vào người đối thủ<br>
+                Ngáng chân đối thủ<br>
+                Xoạc chân không đúng luật<br>
+                Cố tình dùng tay chơi bóng<br>
+                Tạo ra các tình huống gây nguy hiểm cho các cầu thủ đội bạn<br>
+                Giành lại bóng khi thủ môn của đối phương đã kiểm soát bóng bằng tay<br>
+                Ngăn cản đối phương trái phép<br>
+                Cản trở các tình huống phát bóng của thủ môn đối phương
+                </p>
+                <img src="./Img/daphat.jpeg"/>
+                <p>Các lỗi sau đây sẽ nhận thẻ vàng</p>
+                <p style="margin-left: 50px;">
+                    Hành vi phi thể thao nhẹ<br>
+                    Không tôn trọng quyết định của trọng tài<br>
+                    Liên tục mắc lỗi khi thi đấu<br>
+                    Làm gián đoạn, câu giờ đưa bóng về sân<br>
+                    Không tuân thủ khoảng cách khi ném biên hay đá phạt<br>
+                    Tự ý vào sân thi đấu<br>
+                    Tự ý rời sân thi đấu<br>
+                    Cố tình chơi bóng bằng tay
+                </p>
+                <p>Các lỗi sau đây nhận thẻ đỏ</p>
+                <p style="margin-left: 50px;">
+                    Cố tình chơi xấu một cách nghiêm trọng<br>
+                    Có hành vi bạo lực đối với các cầu thủ khác trên sân<br>
+                    Nhổ nước bọt vào đối thủ<br>
+                    Cố tình ngăn cản đối phương không đúng luật<br>
+                    Cố tình dùng tay chơi bóng trong khu vực cấm<br>
+                    Sử dụng các lời nói, hành vi làm ảnh hưởng đến đối phương.
+                </p>
+            </div>
+
+            <div class="luatdaphat chung" id="11">
+                <h2>11.Đá phạt trực tiếp và gián tiếp</h2>
+                <p>Thông thường sẽ có hai loại đá phạt là đá phạt trực tiếp và đá phạt gian tiếp. Đá phạt trực tiếp là bạn có thể đưa bóng vào cầu môn của đối thủ chỉ sau 1 cú chạm. Còn gián tiếp là có ít nhất 2 cầu thủ(trừ người đá) chạm vào trái bóng.</p>
+            </div>
+
+            <div class="pen chung" id="12">
+                <h2>12.Đá Penalty</h2>
+                <p>Penalty là tính huống đá phạt trực tiếp trong vòng cấm.Quả bóng sẽ được đặt ở chấm penalty. Cầu thủ nào thực hiện quả bóng này sẽ được chỉ định rõ ràng. Khi này chỉ có một mình cầu thủ đó đối đầu với thủ môn mà không có bất kì sự ngăn cản nào từ các cầu thủ khác.
+                Thủ môn lúc này sẽ phải đứng ở bên trên vạch cầu môn sao cho bóng được sút đi mới có quyền di chuyển. Nếu thủ môn cố tình di chuyển trước khi bóng được sút đi, cầu thủ thực hiện có quyền được sút lại quả Penalty vừa rồi.</p>
+                <img src="./Img/pen.jpeg">
+            </div>
+
+            <div class="luatnembien chung" id="13">
+                <h2>13.Ném biên</h2>
+                <img src="./Img/luat-nem-bien-trong-bong-da.avif" />
+                <p>Ném biên là tình huống bóng được đưa lại vào sân khi ra ngoài hai biên dọc. Nếu đội nào chạm bóng trước khi bóng chạy ra khỏi đường biên thì đội còn lại sẽ được quyền ném biên theo đúng tư thế được quy định. Nếu như quả ném biên rơi trực tiếp vào khung thành của đối thủ sẽ không được tính là bàn thắng.</p>
+            </div>
+
+            <div class="luatphatgoc chung" id="14">
+                <h2>14.Đá phạt góc</h2>
+                <p>Nếu như trái bóng chạm vào cầu thủ đang phòng ngự rồi đi ra ngoài biên ngang thì lúc này đội tấn công sẽ được hưởng đá phạt. Bạn có thể ghi bàn từ một tình huống phạt góc.</p>
+                <img src="./Img/phatgoc.jpeg" style="height: 400px;">
+            </div>
+        </div>
+    </div>                
+    <footer>
+        <h6>Liên hệ tại:</h6>
+        <ul>
+            <li>
+                <a href="https://youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <a href="https://x.com" target="_blank">X</a>
+            </li>
+            <li>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nhieuhoangkhang2@gmail.com" target="_blank">Gmail</a>
+            </li>
+        </ul>
+    </footer>
+    <div class="content">
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

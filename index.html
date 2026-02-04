@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body{
+            background: linear-gradient(135deg, #0F0F0F, #1C1B18, #2A2A24);
+            background-attachment: fixed;
+        }
+        header{
+            background: rgba(0,0,0,0.35);
+            backdrop-filter: blur(6px);
+            color: blue;
+            text-align: center;  
+            position: sticky;   
+            top: 0; 
+        }
+        nav a{
+            margin-left: 60px;
+        }
+
+        .lido{
+            display: flex;
+            margin-top: 200px;
+        }
+        .lido p {
+            font-size: 35px;
+            color:#C9C9C9;
+            margin-right: 70px;
+        }
+        .lido h1 {
+            font-size: 70px;
+            margin-left: 60px;
+            color:#F1F1E7
+        }
+
+        .lienket{
+            text-align: center;
+            margin-top: 500px;
+        }
+        .lienket h1{
+            color:#F1F1E7;
+            font-size: 70px;
+        }
+        .nut {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .danhgia{
+            margin-top: 500px;
+            text-align: center;
+        }
+        .danhgia h1{
+            color:#F1F1E7;
+            font-size: 70px;
+        }
+        .odanhgia{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        footer {
+            margin-top: 100px;
+            background-color: black;
+        }
+        footer p{
+            color: white;
+        }
+        footer h6 {
+            font-size: 30px;
+            color:#C9C9C9;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>  
+            <ul class="nav justify-content-center">
+            <a href="#"><img src="./Img/b598704a-5f70-475f-afbd-0e3615782a3a.png" alt="Logo" width="80px" height="80px"/></a>
+            <li class="nav-item">
+                <a class="nav-link" href="luatcoban.html" style="font-size: 25px;">Luật cơ bản</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="vitri.html" style="font-size: 25px;">Vị trí trong bóng đá</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="chienthuat.html" style="font-size: 25px;">Chiến thuật cơ bản</a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="lido">
+            <h1>Tạo sao lại có trang web này?</h1>
+            <p>Hãy để chúng tôi giúp bạn tìm hiểu về bóng đá một cách nhanh hơn, hiệu quả hơn</p>
+        </div>
+
+        <div class="lienket">
+            <h1>Tìm hiểu bóng đá ngay bây giờ</h1>
+            <div class="nut">
+                <a class="btn btn-primary" href="luatcoban.html" role="button" style="font-size: 30px;">Luật cơ bản</a>
+                <a class="btn btn-primary" href="vitri.html" role="button" style="font-size: 30px;">Vị trí trong bóng đá</a>
+                <a class="btn btn-primary" href="chienthuat.html" role="button" style="font-size: 30px;">Chiến thuật cơ bản</a>
+            </div>
+        </div>
+        <div class="danhgia">
+            <h1>Các đánh giá</h1>
+            <div class="odanhgia">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Dũng</h5>
+                        <p class="card-text">Trang web này giúp tôi có thể hiểu được bóng đá mà không tốn quá nhiều công sức.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hiếu</h5>
+                        <p class="card-text">Đây là một trang web rất hay về bóng đá, khuyến khích những ai mới chơi bóng đá xem</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ngân</h5>
+                        <p class="card-text">Giúp tôi hiểu về bóng đá nhanh chóng và dễ dàng hơn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h6>Liên hệ tại:</h6>
+        <ul>
+            <li>
+                <a href="https://youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <a href="https://x.com" target="_blank">X</a>
+            </li>
+            <li>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nhieuhoangkhang2@gmail.com" target="_blank">Gmail</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
